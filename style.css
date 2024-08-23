@@ -1,0 +1,72 @@
+body {
+background-color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+}
+* {
+box-sizing: border-box;
+}
+.container {
+display: block;
+width: 60%;
+margin: 20px auto;
+padding: 20px;
+}
+.title {
+font-size: 48px;
+text-align: center;
+margin-bottom: 20px;
+color: white;
+}
+.input {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+font-size: 20px;
+border-radius: 10px;
+}
+.btn_flex {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.btn {
+width: 45%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 10px;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+.btn-plus {
+background-color: green;
+}
+.btn-minus {
+background-color: red;
+}
+.btn-submit {
+width: 100%;
+background-color: black;
+color: rgb(18, 134, 147);
+border: 1px solid rgb(18, 134, 147);
+cursor: pointer;
+}
+.btn-submit:hover {
+background-color: rgb(104, 121, 219);
+color: black;
+border: 1px solid rgb(18, 134, 147);
+}
+.text-result {
+background-color: white;
+height: 100px;
+text-align: center;
+border-radius: 10px;
+}
+.text-result h4 {
+font-size: 28px;
+}
+.text-result p {
+font-size: 20px;
+}
